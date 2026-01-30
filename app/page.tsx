@@ -15,8 +15,8 @@ const SECTIONS = [
   { id: "features", label: "Features & Functions", href: "#features" },
 ];
 
-// Replace with your repo URL, e.g. process.env.NEXT_PUBLIC_GITHUB_URL
-const GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com";
+// Repo URL (override with NEXT_PUBLIC_GITHUB_URL in .env)
+const GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/henrynkoh/afhconsultant_13-permitauto-bygr";
 
 function NavSidebar() {
   const [activeId, setActiveId] = useState<string>("hero");
